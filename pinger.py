@@ -31,7 +31,7 @@ cwd = os.getcwd()
 print(cwd)
 # nmap -sV --script=vulscan/vulscan.nse www.example.com
 
-os.system("nmap -sv --script="+cwd+"//vulscan//vulscan.nse "+host)
+os.system("nmap -sv --script="+cwd+"""/vulscan/vulscan.nse """+host)
 
 
 
